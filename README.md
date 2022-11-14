@@ -55,3 +55,4 @@ Paste Incentive ID from [HERE](https://incentive.minima.global/account/register?
 docker logs -f minima9001
 ```
 
+![Screenshot_21](https://user-images.githubusercontent.com/98658943/201586792-d0d1c2f1-0f91-4b7e-855e-99b44597d7e6.png)
