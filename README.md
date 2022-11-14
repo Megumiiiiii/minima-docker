@@ -27,12 +27,17 @@ docker run -d --restart unless-stopped --name watchtower -e WATCHTOWER_CLEANUP=t
 
 ## Open mini DApp
 `https://YourServerIP:9003/`
+
 ![Screenshot_22](https://user-images.githubusercontent.com/98658943/201584409-8f12e95a-c261-4041-ac0d-e513cbdb0aa1.png)
+
+
 Enter password : 123
 Login
 
 ### Incentive programs
 ![download](https://user-images.githubusercontent.com/98658943/201584579-528ee874-1de2-41a6-8d9f-643f3908d43e.png)
+
+
 Paste Incentive ID from [HERE](https://incentive.minima.global/account/register?inviteCode=BLEVICKP)
 
 ### Check Logs
