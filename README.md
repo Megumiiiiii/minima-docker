@@ -33,7 +33,7 @@ docker run -d --restart unless-stopped --name watchtower -e WATCHTOWER_CLEANUP=t
 ```
 
 ## Open mini DApp
-`https://YourServerIP:9003/`
+`https://YourIPVPS:9003/`
 
 ![Screenshot_25](https://user-images.githubusercontent.com/98658943/201585218-c98fe73a-4253-494b-a46b-1abf09a389c1.png)
 
