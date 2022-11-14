@@ -1,5 +1,15 @@
 # minima-docker
 
+## Uninstall Previous services
+```
+sudo wget -O minima_remove.sh https://raw.githubusercontent.com/minima-global/Minima/master/scripts/minima_remove.sh && chmod +x minima_remove.sh && sudo ./minima_remove.sh -p 9001 -x
+```
+
+```
+sudo rm -r /home/minima/
+sudo userdel minima
+```
+
 ## Auto add user
 ```
 wget -O minimad.sh https://raw.githubusercontent.com/Megumiiiiii/minima-docker/main/minimad.sh && chmod +x minimad.sh && ./minimad.sh
