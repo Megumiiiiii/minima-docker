@@ -54,11 +54,3 @@ sudo apt update -y && sudo apt install apt-transport-https ca-certificates curl 
 
 echo -e "\e[1m\e[32m1. Add user... \e[0m" && sleep 1
 sudo adduser minima && sudo usermod -aG sudo minima && sudo usermod -aG docker minima && su - minima
-
-echo -e "\e[1m\e[32m1. Start... \e[0m" && sleep 1
-docker run -d -e minima_mdspassword=123 -e minima_server=true -v ~/minimadocker9001:/home/minima/data -p 9001-9004:9001-9004 --restart unless-stopped --name minima9001 minimaglobal/minima:latest
-
-echo -e "\e[1m\e[32m1. Install Auto update... \e[0m" && sleep 1
-docker run -d --restart unless-stopped --name watchtower -e WATCHTOWER_CLEANUP=true -e WATCHTOWER_TIMEOUT=60s -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower
-
-echo '╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬ </SUDAH> ╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬'
