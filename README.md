@@ -28,11 +28,14 @@ docker run -d --restart unless-stopped --name watchtower -e WATCHTOWER_CLEANUP=t
 ## Open mini DApp
 `https://YourServerIP:9003/`
 
-![Screenshot_22](https://user-images.githubusercontent.com/98658943/201584409-8f12e95a-c261-4041-ac0d-e513cbdb0aa1.png)
+![Screenshot_25](https://user-images.githubusercontent.com/98658943/201585218-c98fe73a-4253-494b-a46b-1abf09a389c1.png)
+
+If you can't open, follow [THIS GUIDE](https://www.vultr.com/docs/how-to-bypass-the-https-warning-for-self-signed-ssl-tls-certificates/)
+
 
 
 Enter password : 123
-Login
+Click Login
 
 ### Incentive programs
 ![download](https://user-images.githubusercontent.com/98658943/201584579-528ee874-1de2-41a6-8d9f-643f3908d43e.png)
