@@ -15,6 +15,13 @@ sudo userdel minima
 wget -O minimad.sh https://raw.githubusercontent.com/Megumiiiiii/minima-docker/main/minimad.sh && chmod +x minimad.sh && ./minimad.sh
 ```
 
+### New Password
+
+![Screenshot_20](https://user-images.githubusercontent.com/98658943/201586116-fc14131f-c296-4b88-b45a-ef194f660394.png)
+
+Submit new password, click Enter, Y , Enter
+
+
 ## Run
 ```
 docker run -d -e minima_mdspassword=123 -e minima_server=true -v ~/minimadocker9001:/home/minima/data -p 9001-9004:9001-9004 --restart unless-stopped --name minima9001 minimaglobal/minima:latest
